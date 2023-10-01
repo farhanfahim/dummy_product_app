@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.31851851851851853" />
+        <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_edittext.xml" value="0.172" />
+        <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_edittext1.xml" value="0.172" />
+        <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_search.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable-v24/drawable_rounded_border_search.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable-v24/ic_back_transparent.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable-v24/ic_search_normal.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable-v24/ic_star_fill.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable-v24/ic_vector_transparent.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable-v24/placeholder_img.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/drawable_rounded_border_edittext_background.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/error_edit_text.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_check_icon_white.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable/ic_close_circle.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_close_icon_white.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_edit_profile_icon.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_error_circle.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_eye_off.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_eye_on.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable/ic_selected_edit_text.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_tick_circle_new.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_vector.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/input_background.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/primary_button.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/rounded_relative_confirmation.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable/rounded_relative_product.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/show_password_selector.xml" value="0.172" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2869791666666667" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/exit_dialog.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/layout/fragment_image.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.30643513789581206" />
+        <entry key="app/src/main/res/layout/fragment_product_detail.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/item_grid_progress.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/layout/placeholder_text_layout.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/product_items.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/shimmer_products.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/shimmer_products_listing.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/shimmer_single_products.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/toolbar_layout.xml" value="0.30104166666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

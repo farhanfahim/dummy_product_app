@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.app.dummyproduct.callback.ActionCallback" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/heading_txt"
+                style="@style/textDemiBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:labelFor="@+id/heading_txt"
+                android:text="Sign In"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp" />
+
+            <TextView
+                android:id="@+id/heading_txt_2"
+                style="@style/textBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heading_txt"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/email_txt"
+                style="@style/textMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading_txt_2"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:text="Username "
+                android:textColor="@color/colorHint"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/email_txt_asteric"
+                style="@style/textMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading_txt_2"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_toEndOf="@+id/email_txt"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorYellow"
+                android:textSize="@dimen/_10ssp" />
+
+            <com.app.dummyproduct.utils.CustomTextInputLayout
+                android:id="@+id/usernameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_txt"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textColorHint="@color/white"
+                app:errorTextAppearance="@style/error_appearance"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/drawable_edittext"
+                    android:fontFamily="@font/av_next_regular"
+                    android:hint="Your username here"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:labelFor="@+id/et_username"
+                    android:maxLength="75"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorHint"
+                    android:textSize="@dimen/_10ssp" />
+
+            </com.app.dummyproduct.utils.CustomTextInputLayout>
+
+            <ImageView
+                android:id="@+id/username_error_icon"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_below="@+id/email_txt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:src="@drawable/ic_error_circle"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/username_error"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_below="@+id/email_txt"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/error_edit_text"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/password_txt"
+                style="@style/textMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usernameLayout"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:text="Password "
+                android:textColor="@color/colorHint"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/password_txt_asteric"
+                style="@style/textMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usernameLayout"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_toEndOf="@+id/password_txt"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorYellow"
+                android:textSize="@dimen/_10ssp" />
+
+            <com.app.dummyproduct.utils.CustomTextInputLayout
+                android:id="@+id/passwordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password_txt"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:errorTextAppearance="@style/error_appearance"
+                app:hintEnabled="false"
+                app:passwordToggleDrawable="@drawable/show_password_selector"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#979797">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/drawable_edittext"
+                    android:contentDescription="Password Field"
+                    android:fontFamily="@font/av_next_regular"
+                    android:hint="Your password here"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:labelFor="@+id/et_password"
+                    android:maxLength="75"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorHint"
+                    android:textSize="@dimen/_10ssp" />
+
+            </com.app.dummyproduct.utils.CustomTextInputLayout>
+
+            <ImageView
+                android:id="@+id/password_error_icon"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_below="@+id/password_txt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:src="@drawable/ic_error_circle"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/password_error"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_below="@+id/password_txt"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/error_edit_text"
+                android:visibility="gone" />
+
+
+            <com.apachat.loadingbutton.core.customViews.CircularProgressButton
+                android:id="@+id/sign_in_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="@drawable/primary_button"
+                android:contentDescription="Signin btn"
+                android:fontFamily="@font/av_next_demi_bold"
+                android:onClick="@{(v) -> callback.onClick(v)}"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                app:initialCornerAngle="@dimen/_100sdp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="4dp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

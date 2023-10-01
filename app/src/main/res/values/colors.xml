@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#1270EC</color>
+    <color name="Brown">#964B00</color>
+    <color name="Burgundy">#900020</color>
+    <color name="Gold">#FFE9B4</color>
+    <color name="Grey">#A3A6AA</color>
+    <color name="Orange">#E84832</color>
+    <color name="Green">#43BB3F</color>
+    <color name="Purple">#660099</color>
+    <color name="Red">#F73131</color>
+    <color name="Silver">#ECECEC</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Teal">#008080</color>
+    <color name="White">#BDBDBD</color>
+    <color name="Yellow">#FFB202</color>
+
+    <color name="background">#CECED4</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorYellow">#FEC106</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#161616</color>
+    <color name="green_color">#57FF4B</color>
+    <color name="dark_green_color">#006400</color>
+    <color name="red_color">#B71C1C</color>
+    <color name="colorGrey">#BDBDBD</color>
+    <color name="colorHint">#707581</color>
+    <color name="colorTextField">#1E2329</color>
+    <color name="colorOrange">#FF5A4E</color>
+    <color name="transparent">#00000000</color>
+    <color name="toolbar_text_color">#2A2F35</color>
+    <color name="disable_btn_color">#BBBBBB</color>
+    <color name="black_variant">#161616</color>
+    <color name="grey_variant">#707070</color>
+    <color name="colorGreyNew">#F7F7F7</color>
+    <color name="dividerColor">#F2F2F2</color>
+    <color name="acceptedColorBg">#F1FFEB</color>
+    <color name="inactiveColorBg">#FFF0F0</color>
+    <color name="completedColorBg">#E0FDEF</color>
+    <color name="pendingColorBg">#FFF7E2</color>
+    <color name="acceptedColorTxt">#53B823</color>
+    <color name="inactiveColorTxt">#C81C11</color>
+    <color name="completedColorTxt">#069952</color>
+    <color name="pendingColorTxt">#FEC106</color>
+    <color name="notificationUnReadColor">#fef9ed</color>
+    <color name="inactiveBtn">#BBBBBB</color>
+    <color name="lineColor">#F3F3F3</color>
+    <color name="lineColorNew">#CECED4</color>
+
+
+
+</resources>
