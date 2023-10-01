@@ -16,7 +16,8 @@ Username: kminchelle
 Password: 0lelplR
 Build and run the project on your Android emulator or physical device.
 
-Name: kminchelle
-Email: 0lelplR
+Username: kminchelle
+
+Password: 0lelplR
 
 Thank you for your interest in our Android project!
