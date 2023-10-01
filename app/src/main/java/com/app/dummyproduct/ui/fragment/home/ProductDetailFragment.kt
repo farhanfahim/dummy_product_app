@@ -1,10 +1,8 @@
 package com.app.dummyproduct.ui.fragment.home
-import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import com.app.dummyproduct.R
 import com.app.dummyproduct.adapter.ImageAdapter
 import com.app.dummyproduct.base.BaseFragment
@@ -17,8 +15,6 @@ import kotlin.collections.ArrayList
 class ProductDetailFragment : BaseFragment(), ActionCallback{
     private lateinit var binding: FragmentProductDetailBinding
     private lateinit var model: Product
-    var isShow = true
-    var scrollRange = -1
     var list: ArrayList<String> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,6 +60,7 @@ class ProductDetailFragment : BaseFragment(), ActionCallback{
             binding.viewPager.adapter = ImageAdapter(
                 childFragmentManager, list
             )
+            binding.tabLayout.setupWithViewPager(binding.viewPager)
         }
     }
 

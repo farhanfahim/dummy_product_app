@@ -47,7 +47,17 @@
                         <androidx.viewpager.widget.ViewPager
                             android:id="@+id/viewPager"
                             android:layout_width="match_parent"
-                            android:layout_height="@dimen/_200sdp" />
+                            android:layout_height="@dimen/_300sdp" />
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/tab_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            app:tabBackground="@drawable/tab_selector"
+                            app:tabGravity="center"
+                            app:tabIndicatorHeight="0dp"
+                            android:layout_gravity="bottom" />
 
 
                     </FrameLayout>
@@ -205,7 +215,6 @@
                         android:text="description"
                         android:textColor="@color/grey_variant"
                         android:textSize="@dimen/_12ssp" />
-
 
                 </RelativeLayout>
 

@@ -7,6 +7,7 @@
         <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_edittext.xml" value="0.172" />
         <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_edittext1.xml" value="0.172" />
         <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_drawable_search.xml" value="0.172" />
+        <entry key="../../../../private/var/folders/zr/43958kws1gqc01qfmhtjdg_c0000gn/T/drawable-temp/fake_of_selected_dot.xml" value="0.172" />
         <entry key="app/src/main/res/drawable-v24/drawable_rounded_border_search.xml" value="0.172" />
         <entry key="app/src/main/res/drawable-v24/ic_back_transparent.xml" value="0.172" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1555" />
@@ -14,6 +15,7 @@
         <entry key="app/src/main/res/drawable-v24/ic_star_fill.xml" value="0.172" />
         <entry key="app/src/main/res/drawable-v24/ic_vector_transparent.xml" value="0.172" />
         <entry key="app/src/main/res/drawable-v24/placeholder_img.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/default_dot.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/drawable_rounded_border_edittext_background.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/error_edit_text.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/ic_check_icon_white.xml" value="0.1555" />
@@ -31,7 +33,9 @@
         <entry key="app/src/main/res/drawable/primary_button.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/rounded_relative_confirmation.xml" value="0.1555" />
         <entry key="app/src/main/res/drawable/rounded_relative_product.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/selected_dot.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/show_password_selector.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.172" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2869791666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.30104166666666665" />
